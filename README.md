@@ -1,4 +1,4 @@
-# test-ekWateur
+# Promo Code Validator
 
 
 
@@ -13,8 +13,8 @@ docker-compose up -d
 
 To test the command line, please make it throw your docker's container
 ```
-docker exec -it www_ekwateur_sf bash
-cd ekwateur
+docker exec -it www_promocode_sf bash
+cd promoCodeValidator
 
 php bin/console promo-code:validate
 ```
